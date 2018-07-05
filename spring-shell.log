@@ -57,3 +57,30 @@
 1530810008680:exit
 1530810022883:exit
 1530810033262:exit
+1530822266329:start-consumer
+1530822284688:start-consumer --group-id delivery
+1530822303762:start-consumer --group-id mail
+1530822321076:place-order --product shoes --customer akhil
+1530822331034:place-order --product shoes --customer akhil --partition 1
+1530822341010:place-order --product shoes --customer akhil --partition 0
+1530822365555:start-consumer --group-id mail
+1530822374947:place-order --product shoes --customer akhil --partition 1
+1530822377655:place-order --product shoes --customer akhil --partition 0
+1530822383957:exit
+1530822402633:start-consumer --group-id mail
+1530822786451:exit
+1530822792455:exit
+1530822898713:start-consumer --group-id mail
+1530822915159:start-consumer --group-id delivery
+1530822932078:start-consumer --group-id delivery
+1530822954236:place-order --product pants --customer Akhil
+1530822962106:place-order --product pants --customer Akhil --partition 1
+1530822966671:place-order --product pants --customer Akhil --partition 0
+1530822970641:place-order --product pants --customer Akhil --partition 1
+1530822973296:place-order --product pants --customer Akhil --partition 3
+1530822977218:place-order --product pants --customer Akhil --partition 2
+1530822981431:place-order --product pants --customer Akhil --partition 1
+1530822983253:place-order --product pants --customer Akhil --partition 2
+1530822985494:place-order --product pants --customer Akhil --partition 1
+1530822988242:place-order --product pants --customer Akhil --partition 2
+1530822993291:exit

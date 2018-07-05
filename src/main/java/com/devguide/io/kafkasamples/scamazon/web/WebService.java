@@ -27,9 +27,10 @@ public class WebService {
 
   @ShellMethod("Place an order")
   public void placeOrder(@ShellOption  String product,
-                         @ShellOption String customer) {
+                         @ShellOption String customer,
+                         @ShellOption Integer partition) {
 
     // do some webservice logic.
-    kafkaTemplate.sendDefault(product, customer);
+    kafkaTemplate.send(ORDER_TOPIC, partition, product, customer);
   }
 }

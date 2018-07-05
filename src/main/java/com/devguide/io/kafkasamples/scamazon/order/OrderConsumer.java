@@ -6,6 +6,7 @@ import org.springframework.kafka.listener.MessageListener;
 import org.springframework.kafka.listener.config.ContainerProperties;
 import org.springframework.shell.standard.ShellComponent;
 import org.springframework.shell.standard.ShellMethod;
+import org.springframework.shell.standard.ShellOption;
 
 /**
  * Author: akhil
@@ -24,8 +25,9 @@ public class OrderConsumer {
   }
 
   @ShellMethod("Run the order service")
-  private void startConsumer() {
+  private void startConsumer(@ShellOption String groupId) {
     ContainerProperties containerProperties = new ContainerProperties(ORDER_TOPIC);
+    containerProperties.setGroupId(groupId);
     containerProperties.setMessageListener((MessageListener<String, String>) order -> orderService.processOrder(order));
     KafkaMessageListenerContainer<String, String> container = new Consumer().createContainer(containerProperties);
     container.start();
