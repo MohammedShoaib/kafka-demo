@@ -1,0 +1,59 @@
+1530787250085:CMD
+1530787256452:ls
+1530787260230:hep
+1530787262362:help
+1530787275157:run --server web
+1530787290057:run --server web --type boot
+1530787312209:\\q
+1530787314563:exit
+1530787355724:run --type boot --server web
+1530787385137:exit
+1530787899980:help
+1530787906294:place-order
+1530787935147:place-order --product shoe --customer Akhil
+1530788219552:ru
+1530788222397:help
+1530788241649:place-order --product temp --customer akhil
+1530788251748:stacktrace
+1530807856142:help
+1530807867212:start-consumer
+1530807873532:exit
+1530807926501:start-consumer
+1530808043745:help
+1530808052014:start-consumer
+1530808067442:stacktrace
+1530808158357:help
+1530808163097:start-consumer
+1530808171860:stacktrace
+1530808640543:start-consumer
+1530808661618:stacktrace
+1530808746319:help
+1530808750423:start-consumer
+1530808754475:stacktrance
+1530808759917:start-consumer
+1530808766685:stacktrace
+1530809005368:help
+1530809010283:start-consumer
+1530809014080:stacktrace
+1530809097507:help
+1530809101615:start-consumer
+1530809113875:place-order
+1530809132138:place-order --product shoe --customer akhil
+1530809153984:exit
+1530809342446:help
+1530809348637:start-consumer
+1530809383656:help
+1530809401280:place-order --product show --customer akhil
+1530809437511:place-order --product show --customer Harish
+1530809496113:place-order --product umbrella --customer Kaushik
+1530809790299:exit
+1530809803713:place-order --product show --customer Bhavul
+1530809813617:place-order --product candy  --customer Kaushik
+1530809837445:place-order --product Shirt  --customer Aditya
+1530809857138:ls
+1530809864433:start-order
+1530809866310:help
+1530809870158:start-consumer
+1530810008680:exit
+1530810022883:exit
+1530810033262:exit
