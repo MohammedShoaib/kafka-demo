@@ -1,6 +1,6 @@
-package com.devguide.io.kafkasamples.notboot.web;
+package com.devguide.io.kafkasamples.scamazon.web;
 
-import com.devguide.io.kafkasamples.notboot.event.Producer;
+import com.devguide.io.kafkasamples.scamazon.event.Producer;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.shell.standard.ShellComponent;
 import org.springframework.shell.standard.ShellMethod;

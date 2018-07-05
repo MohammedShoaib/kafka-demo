@@ -1,4 +1,4 @@
-package com.devguide.io.kafkasamples.notboot.event;
+package com.devguide.io.kafkasamples.scamazon.event;
 
 import java.util.HashMap;
 import java.util.Map;

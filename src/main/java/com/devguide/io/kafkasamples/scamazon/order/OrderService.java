@@ -1,4 +1,4 @@
-package com.devguide.io.kafkasamples.notboot.order;
+package com.devguide.io.kafkasamples.scamazon.order;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 

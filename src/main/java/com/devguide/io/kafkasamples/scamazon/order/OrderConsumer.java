@@ -1,6 +1,6 @@
-package com.devguide.io.kafkasamples.notboot.order;
+package com.devguide.io.kafkasamples.scamazon.order;
 
-import com.devguide.io.kafkasamples.notboot.event.Consumer;
+import com.devguide.io.kafkasamples.scamazon.event.Consumer;
 import org.springframework.kafka.listener.KafkaMessageListenerContainer;
 import org.springframework.kafka.listener.MessageListener;
 import org.springframework.kafka.listener.config.ContainerProperties;
